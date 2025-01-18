@@ -31,5 +31,6 @@ while not terminated:
     trewardinf += reward
     state = observation
 pygameview.pygame_view(frames, scores)
+
 print(score)
 print(trewardinf)
